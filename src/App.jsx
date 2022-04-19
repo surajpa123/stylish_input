@@ -23,6 +23,7 @@ function App() {
 className="inputb"
   initialValue=""
   size="lg"
+  length={5}
   type='password'
   onChange={(value, index, values) => setValues(values)}
 />
